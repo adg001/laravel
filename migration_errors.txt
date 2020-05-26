@@ -1,0 +1,5 @@
+Migration_error:-"Driver could not be found"
+
+1: sudo apt-get install php7.3-mysql
+2: sudo phpenmod pdo_mysql
+3: sudo service apache2 restart 
